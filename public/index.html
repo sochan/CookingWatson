@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Ask me how to cook a recipe</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+  	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  
+  	<script src="/js/env.js"></script>
+  	
+  	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="css/app.css">
+  </head>
+
+  <body>
+    
+    <div class='container'>
+    	<div><h1 class="head"><img alt="Be your chef" src="img/rabbit.png" width="100px"/>Be Your Chef</h1></div>
+    	<div><h3 class="subhead">Ask me something about your recipes</h3></div>
+    	
+    	<div>
+    		<input type="text" style="color:white;" id="searchTxt" placeholder="Type recipe name or ingredient here!"></input><input type="submit" id="searchBtn" value="search"></input>
+    		<a href="watson.html" class="open-popup" title="Ask me about how to cook your own food.">Chat to me</a>
+    		<a href="" class="close-chat" id="closechat" style="float:right;display:none;">Close chat</a>
+    	</div>
+    
+		<div id="popup" title="Click me to close!" style="background-color:white;">
+		</div>
+    	
+	  	<div class='row'>
+	  	</div>
+	  </div>
+  </body>
+</html>
